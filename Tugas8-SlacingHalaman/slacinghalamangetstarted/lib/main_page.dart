@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'home_news.dart';
 import 'search_page.dart';
 import 'setting_page.dart';
+import 'quiz.dart';
 
 class MyWidget extends StatefulWidget {
   const MyWidget({super.key});
@@ -16,7 +17,7 @@ class _MyWidgetState extends State<MyWidget> {
   final List<Widget> _children = [
     HomeNewsPage(),
     SearchPage(),
-    SettingPage(),
+    SettingsPage(),
   ];
 
   void onTabTapped(int index) {
