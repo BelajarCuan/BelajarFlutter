@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'get_started_page.dart'; // Pastikan import halaman get started
+import 'get_started_page.dart';
 
 class SettingPage extends StatelessWidget {
   @override
@@ -11,7 +11,6 @@ class SettingPage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            // Arahkan ke halaman get started ketika tombol log out diklik
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (context) => GetStartedPage()),

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'get_started_page.dart';
 import 'home_news.dart';
-import 'main.dart';
 import 'search_page.dart';
 import 'setting_page.dart';
 
@@ -15,14 +13,12 @@ class MyWidget extends StatefulWidget {
 class _MyWidgetState extends State<MyWidget> {
   int _currentIndex = 0;
 
-  // List of pages for bottom navigation
   final List<Widget> _children = [
     HomeNewsPage(),
     SearchPage(),
     SettingPage(),
   ];
 
-  // Method to handle tab tap
   void onTabTapped(int index) {
     setState(() {
       _currentIndex = index;
@@ -32,10 +28,10 @@ class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: _children[_currentIndex], // Display the current page
+      body: _children[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex, // Track the current index
-        onTap: onTabTapped, // Handle taps
+        currentIndex: _currentIndex,
+        onTap: onTabTapped,
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
