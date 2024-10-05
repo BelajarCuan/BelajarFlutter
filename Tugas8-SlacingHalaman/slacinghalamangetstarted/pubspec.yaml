@@ -64,7 +64,7 @@ flutter:
   assets:
     - assets/hypatos.png
     - assets/image_news.png
-    - assets/News.png
+    - assets/news.png
     - assets/SwipeNews.png
     - assets/image.png
 

@@ -37,7 +37,7 @@ class HomeNewsPage extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 image: DecorationImage(
-                  image: AssetImage('assets/SwipeNews.png'), 
+                  image: AssetImage('assets/SwipeNews.png'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -47,14 +47,16 @@ class HomeNewsPage extends StatelessWidget {
                     top: 20,
                     left: 20,
                     child: Container(
-                      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(5),
                       ),
                       child: Text(
                         'TECHNOLOGY',
-                        style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+                        style: TextStyle(
+                            color: Colors.black, fontWeight: FontWeight.bold),
                       ),
                     ),
                   ),
