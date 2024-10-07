@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:slacinghalamangetstarted/user/page/user_page.dart';
 import 'get_started_page.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: GetStartedPage(),
+      home: UserPage(),
     );
   }
 }
