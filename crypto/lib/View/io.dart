@@ -40,7 +40,7 @@ class _IOState extends State<IO> {
               children: [
                 Text(''),
                 Text(
-                  'Dont Buy Crypto',
+                  'Lets Buy Crypto',
                   style: TextStyle(
                       fontSize: 60,
                       color: Colors.black,

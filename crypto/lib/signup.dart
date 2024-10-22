@@ -112,7 +112,8 @@ class _SignUpState extends State<SignUp> with SingleTickerProviderStateMixin {
                         padding: EdgeInsets.all(8.0),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10.0),
-                          color: Colors.white, // Ubah latar belakang menjadi putih
+                          color:
+                              Colors.white, // Ubah latar belakang menjadi putih
                         ),
                         child: Column(
                           children: <Widget>[
@@ -162,7 +163,7 @@ class _SignUpState extends State<SignUp> with SingleTickerProviderStateMixin {
                                     onPressed: () {
                                       setState(() {
                                         _isPasswordVisible =
-                                        !_isPasswordVisible;
+                                            !_isPasswordVisible;
                                       });
                                     },
                                     icon: Icon(
@@ -201,7 +202,7 @@ class _SignUpState extends State<SignUp> with SingleTickerProviderStateMixin {
                                     onPressed: () {
                                       setState(() {
                                         _isPasswordVisible =
-                                        !_isPasswordVisible;
+                                            !_isPasswordVisible;
                                       });
                                     },
                                     icon: Icon(
@@ -230,7 +231,8 @@ class _SignUpState extends State<SignUp> with SingleTickerProviderStateMixin {
                         height: 30,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            primary: Colors.blue,
+                            backgroundColor: Colors
+                                .blue, // Mengganti primary menjadi backgroundColor
                             shape: StadiumBorder(),
                           ),
                           onPressed: () {
